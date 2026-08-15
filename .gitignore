@@ -1,0 +1,28 @@
+
+# Secrets — never commit
+.env
+*.env
+!example.env
+zomato/profiles.yml
+
+# Raw data (too large for GitHub)
+data/
+
+# Logs
+logs/
+airflow/logs/
+
+# dbt artifacts
+zomato/target/
+zomato/dbt_packages/
+zomato/logs/
+zomato/.user.yml
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+ai/review_embeddings_gemini.parquet
+*.parquet

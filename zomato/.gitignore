@@ -1,0 +1,23 @@
+
+target/
+dbt_packages/
+logs/
+.env
+# Environments & Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Airflow
+airflow/
+*.log
+
+# dbt
+target/
+dbt_packages/
+logs/
+
+# Sensitive data
+.env
